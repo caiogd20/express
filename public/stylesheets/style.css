@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+.row{
+    background-color: white;
+}
+aside div ul{
+    list-style: none;
+    padding: 0;
+}
+article img{
+    width: 200px;
+    height: 120px;
+    display: block;
+}
+article{
+    padding: 10px;
+}
+.logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width: 768px) {
+    .logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    }
+    nav{
+        display: block;
+        margin: 0 auto;
+    }
+    article img{
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    }
+}
