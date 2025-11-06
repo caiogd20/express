@@ -1,41 +1,5 @@
-body {
-    background-color: black;
-}
-.row{
-    background-color: white;
-}
-aside div ul{
-    list-style: none;
-    padding: 0;
-}
-article img{
-    width: 200px;
-    height: 120px;
-    display: block;
-}
-article{
-    padding: 10px;
-}
-.logo{
-    display: block;
-    width: 100px;
-    height: 100px;
-}
-@media screen and (max-width: 768px) {
-    .logo{
-    display: block;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    }
-    nav{
-        display: block;
-        margin: 0 auto;
-    }
-    article img{
-    width: 200px;
-    height: 120px;
-    display: block;
-    margin: 0 auto;
-    }
-}
+body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+    #chat { background: white; padding: 15px; border-radius: 8px; max-width: 600px; margin: auto; }
+    .msg { margin: 8px 0; }
+    .user { font-weight: bold; color: blue; }
+    .bot { font-weight: bold; color: green; }
